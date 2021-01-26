@@ -1,6 +1,6 @@
 {
   "rules": {
-    "quotes": [2, 'single'],
+    "quotes": [2, "single"],
     "semi": 2,
     "curly": 2,
     "camelcase": 0,
@@ -20,5 +20,6 @@
   },
   "globals": {
     "chrome": false
-  }
+  },
+  "parser": "babel-eslint"
 }
