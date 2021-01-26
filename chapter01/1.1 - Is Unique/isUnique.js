@@ -33,8 +33,6 @@
 //   return true;
 // }
 
-//Implement an algorithm to determine if a string has all unique characters. What if you cannot use additional data structures?
-
 //O(n^2) run time. Nested for loops. Brute force. For every character in the string, it checks the rest of the string to see if the char pair matches. If they do, returns false. Returns true after checking every pair.
 function hasUniqueCharacters(str) {
   for (i = 0; i < str.length; i++) {

@@ -11,8 +11,6 @@
 //   }
 // };
 
-//Check Permutation: Given two strings, write a method to decide if one is apermutation of the other.
-
 //O(a) runtime. Checks if they are the same length. If they are not the same length, returns false. Iterates through string a and counts frequency of every char in string a and stores in hash table. Iterates through b and decrements values in hash table. If key value pair doesn't exist or if value is less than 0 after decrementing, returns false. After iterating through both strings, returns true.
 function checkPermute(a, b) {
   if (a.length !== b.length) {
